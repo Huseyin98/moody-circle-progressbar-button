@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0771F35FE3A4F6D6BABA7ADA /* Pods_moodyTimerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B7351937670848575476C7 /* Pods_moodyTimerTests.framework */; };
+		1D19FB183411E7454E4092F4 /* Pods_moodyTimer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE821A8F9CE380A044FEB00 /* Pods_moodyTimer.framework */; };
+		1D53F25024F68795002722E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53F24F24F68795002722E1 /* AppDelegate.swift */; };
+		1D53F25224F68795002722E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53F25124F68795002722E1 /* ViewController.swift */; };
+		1D53F25524F68795002722E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D53F25324F68795002722E1 /* Main.storyboard */; };
+		1D53F25724F68795002722E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D53F25624F68795002722E1 /* Assets.xcassets */; };
+		1D53F25A24F68795002722E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D53F25824F68795002722E1 /* LaunchScreen.storyboard */; };
+		1D53F26524F68795002722E1 /* moodyTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53F26424F68795002722E1 /* moodyTimerTests.swift */; };
+		1D53F27024F68795002722E1 /* moodyTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D53F26F24F68795002722E1 /* moodyTimerUITests.swift */; };
+		D606D78F2B23F1AD9AACA70F /* Pods_moodyTimer_moodyTimerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1650033D56398D97B977DA /* Pods_moodyTimer_moodyTimerUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D53F26124F68795002722E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D53F24424F68795002722E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D53F24B24F68795002722E1;
+			remoteInfo = moodyTimer;
+		};
+		1D53F26C24F68795002722E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1D53F24424F68795002722E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D53F24B24F68795002722E1;
+			remoteInfo = moodyTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C1650033D56398D97B977DA /* Pods_moodyTimer_moodyTimerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moodyTimer_moodyTimerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D53F24C24F68795002722E1 /* moodyTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodyTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D53F24F24F68795002722E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1D53F25124F68795002722E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D53F25424F68795002722E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D53F25624F68795002722E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D53F25924F68795002722E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D53F25B24F68795002722E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D53F26024F68795002722E1 /* moodyTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodyTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D53F26424F68795002722E1 /* moodyTimerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodyTimerTests.swift; sourceTree = "<group>"; };
+		1D53F26624F68795002722E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D53F26B24F68795002722E1 /* moodyTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = moodyTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D53F26F24F68795002722E1 /* moodyTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodyTimerUITests.swift; sourceTree = "<group>"; };
+		1D53F27124F68795002722E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24027F2E833578FA37C62079 /* Pods-moodyTimer-moodyTimerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodyTimer-moodyTimerUITests.release.xcconfig"; path = "Target Support Files/Pods-moodyTimer-moodyTimerUITests/Pods-moodyTimer-moodyTimerUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33B7351937670848575476C7 /* Pods_moodyTimerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moodyTimerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46FF462B22D3FFB6FCA3F954 /* Pods-moodyTimer-moodyTimerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodyTimer-moodyTimerUITests.debug.xcconfig"; path = "Target Support Files/Pods-moodyTimer-moodyTimerUITests/Pods-moodyTimer-moodyTimerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6021D2DA275D1C1170E6169E /* Pods-moodyTimerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodyTimerTests.debug.xcconfig"; path = "Target Support Files/Pods-moodyTimerTests/Pods-moodyTimerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6B43B6407FB2CCC09DB89476 /* Pods-moodyTimerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodyTimerTests.release.xcconfig"; path = "Target Support Files/Pods-moodyTimerTests/Pods-moodyTimerTests.release.xcconfig"; sourceTree = "<group>"; };
+		80C98097EE36310F3B07CB7B /* Pods-moodyTimer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodyTimer.release.xcconfig"; path = "Target Support Files/Pods-moodyTimer/Pods-moodyTimer.release.xcconfig"; sourceTree = "<group>"; };
+		895F53B33FAC790BC171BBDE /* Pods-moodyTimer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-moodyTimer.debug.xcconfig"; path = "Target Support Files/Pods-moodyTimer/Pods-moodyTimer.debug.xcconfig"; sourceTree = "<group>"; };
+		8CE821A8F9CE380A044FEB00 /* Pods_moodyTimer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_moodyTimer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D53F24924F68795002722E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D19FB183411E7454E4092F4 /* Pods_moodyTimer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D53F25D24F68795002722E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0771F35FE3A4F6D6BABA7ADA /* Pods_moodyTimerTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D53F26824F68795002722E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D606D78F2B23F1AD9AACA70F /* Pods_moodyTimer_moodyTimerUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D53F24324F68795002722E1 = {
+			isa = PBXGroup;
+			children = (
+				1D53F24E24F68795002722E1 /* moodyTimer */,
+				1D53F26324F68795002722E1 /* moodyTimerTests */,
+				1D53F26E24F68795002722E1 /* moodyTimerUITests */,
+				1D53F24D24F68795002722E1 /* Products */,
+				5FFE88ABAFEC27C9C363D48D /* Pods */,
+				B539D1FF159921D0A5669FC2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1D53F24D24F68795002722E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D53F24C24F68795002722E1 /* moodyTimer.app */,
+				1D53F26024F68795002722E1 /* moodyTimerTests.xctest */,
+				1D53F26B24F68795002722E1 /* moodyTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D53F24E24F68795002722E1 /* moodyTimer */ = {
+			isa = PBXGroup;
+			children = (
+				1D53F24F24F68795002722E1 /* AppDelegate.swift */,
+				1D53F25124F68795002722E1 /* ViewController.swift */,
+				1D53F25324F68795002722E1 /* Main.storyboard */,
+				1D53F25624F68795002722E1 /* Assets.xcassets */,
+				1D53F25824F68795002722E1 /* LaunchScreen.storyboard */,
+				1D53F25B24F68795002722E1 /* Info.plist */,
+			);
+			path = moodyTimer;
+			sourceTree = "<group>";
+		};
+		1D53F26324F68795002722E1 /* moodyTimerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1D53F26424F68795002722E1 /* moodyTimerTests.swift */,
+				1D53F26624F68795002722E1 /* Info.plist */,
+			);
+			path = moodyTimerTests;
+			sourceTree = "<group>";
+		};
+		1D53F26E24F68795002722E1 /* moodyTimerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D53F26F24F68795002722E1 /* moodyTimerUITests.swift */,
+				1D53F27124F68795002722E1 /* Info.plist */,
+			);
+			path = moodyTimerUITests;
+			sourceTree = "<group>";
+		};
+		5FFE88ABAFEC27C9C363D48D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				895F53B33FAC790BC171BBDE /* Pods-moodyTimer.debug.xcconfig */,
+				80C98097EE36310F3B07CB7B /* Pods-moodyTimer.release.xcconfig */,
+				46FF462B22D3FFB6FCA3F954 /* Pods-moodyTimer-moodyTimerUITests.debug.xcconfig */,
+				24027F2E833578FA37C62079 /* Pods-moodyTimer-moodyTimerUITests.release.xcconfig */,
+				6021D2DA275D1C1170E6169E /* Pods-moodyTimerTests.debug.xcconfig */,
+				6B43B6407FB2CCC09DB89476 /* Pods-moodyTimerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B539D1FF159921D0A5669FC2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CE821A8F9CE380A044FEB00 /* Pods_moodyTimer.framework */,
+				1C1650033D56398D97B977DA /* Pods_moodyTimer_moodyTimerUITests.framework */,
+				33B7351937670848575476C7 /* Pods_moodyTimerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D53F24B24F68795002722E1 /* moodyTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D53F27424F68795002722E1 /* Build configuration list for PBXNativeTarget "moodyTimer" */;
+			buildPhases = (
+				34E0BE1B0778C3B4F3CF9A80 /* [CP] Check Pods Manifest.lock */,
+				1D53F24824F68795002722E1 /* Sources */,
+				1D53F24924F68795002722E1 /* Frameworks */,
+				1D53F24A24F68795002722E1 /* Resources */,
+				1283C4374D195C449483A571 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = moodyTimer;
+			productName = moodyTimer;
+			productReference = 1D53F24C24F68795002722E1 /* moodyTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1D53F25F24F68795002722E1 /* moodyTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D53F27724F68795002722E1 /* Build configuration list for PBXNativeTarget "moodyTimerTests" */;
+			buildPhases = (
+				30D0655A860DA9C7DA497BFC /* [CP] Check Pods Manifest.lock */,
+				1D53F25C24F68795002722E1 /* Sources */,
+				1D53F25D24F68795002722E1 /* Frameworks */,
+				1D53F25E24F68795002722E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D53F26224F68795002722E1 /* PBXTargetDependency */,
+			);
+			name = moodyTimerTests;
+			productName = moodyTimerTests;
+			productReference = 1D53F26024F68795002722E1 /* moodyTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1D53F26A24F68795002722E1 /* moodyTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D53F27A24F68795002722E1 /* Build configuration list for PBXNativeTarget "moodyTimerUITests" */;
+			buildPhases = (
+				BD334BB5C656896B7ADB0D48 /* [CP] Check Pods Manifest.lock */,
+				1D53F26724F68795002722E1 /* Sources */,
+				1D53F26824F68795002722E1 /* Frameworks */,
+				1D53F26924F68795002722E1 /* Resources */,
+				C4F71B0F29EB0489CE514255 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D53F26D24F68795002722E1 /* PBXTargetDependency */,
+			);
+			name = moodyTimerUITests;
+			productName = moodyTimerUITests;
+			productReference = 1D53F26B24F68795002722E1 /* moodyTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D53F24424F68795002722E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Huseyin;
+				TargetAttributes = {
+					1D53F24B24F68795002722E1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					1D53F25F24F68795002722E1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D53F24B24F68795002722E1;
+					};
+					1D53F26A24F68795002722E1 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1D53F24B24F68795002722E1;
+					};
+				};
+			};
+			buildConfigurationList = 1D53F24724F68795002722E1 /* Build configuration list for PBXProject "moodyTimer" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D53F24324F68795002722E1;
+			productRefGroup = 1D53F24D24F68795002722E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D53F24B24F68795002722E1 /* moodyTimer */,
+				1D53F25F24F68795002722E1 /* moodyTimerTests */,
+				1D53F26A24F68795002722E1 /* moodyTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D53F24A24F68795002722E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D53F25A24F68795002722E1 /* LaunchScreen.storyboard in Resources */,
+				1D53F25724F68795002722E1 /* Assets.xcassets in Resources */,
+				1D53F25524F68795002722E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D53F25E24F68795002722E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D53F26924F68795002722E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1283C4374D195C449483A571 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moodyTimer/Pods-moodyTimer-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RecordButton/RecordButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RecordButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moodyTimer/Pods-moodyTimer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30D0655A860DA9C7DA497BFC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moodyTimerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34E0BE1B0778C3B4F3CF9A80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moodyTimer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD334BB5C656896B7ADB0D48 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-moodyTimer-moodyTimerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4F71B0F29EB0489CE514255 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-moodyTimer-moodyTimerUITests/Pods-moodyTimer-moodyTimerUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RecordButton/RecordButton.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RecordButton.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-moodyTimer-moodyTimerUITests/Pods-moodyTimer-moodyTimerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D53F24824F68795002722E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D53F25224F68795002722E1 /* ViewController.swift in Sources */,
+				1D53F25024F68795002722E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D53F25C24F68795002722E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D53F26524F68795002722E1 /* moodyTimerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D53F26724F68795002722E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D53F27024F68795002722E1 /* moodyTimerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D53F26224F68795002722E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D53F24B24F68795002722E1 /* moodyTimer */;
+			targetProxy = 1D53F26124F68795002722E1 /* PBXContainerItemProxy */;
+		};
+		1D53F26D24F68795002722E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1D53F24B24F68795002722E1 /* moodyTimer */;
+			targetProxy = 1D53F26C24F68795002722E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1D53F25324F68795002722E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D53F25424F68795002722E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D53F25824F68795002722E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D53F25924F68795002722E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D53F27224F68795002722E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D53F27324F68795002722E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D53F27524F68795002722E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 895F53B33FAC790BC171BBDE /* Pods-moodyTimer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q3JZC8T8R;
+				INFOPLIST_FILE = moodyTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huseyingulecen.moodyTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D53F27624F68795002722E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80C98097EE36310F3B07CB7B /* Pods-moodyTimer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4Q3JZC8T8R;
+				INFOPLIST_FILE = moodyTimer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huseyingulecen.moodyTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1D53F27824F68795002722E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6021D2DA275D1C1170E6169E /* Pods-moodyTimerTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = moodyTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huseyingulecen.moodyTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moodyTimer.app/moodyTimer";
+			};
+			name = Debug;
+		};
+		1D53F27924F68795002722E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B43B6407FB2CCC09DB89476 /* Pods-moodyTimerTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = moodyTimerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huseyingulecen.moodyTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/moodyTimer.app/moodyTimer";
+			};
+			name = Release;
+		};
+		1D53F27B24F68795002722E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46FF462B22D3FFB6FCA3F954 /* Pods-moodyTimer-moodyTimerUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = moodyTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huseyingulecen.moodyTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moodyTimer;
+			};
+			name = Debug;
+		};
+		1D53F27C24F68795002722E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24027F2E833578FA37C62079 /* Pods-moodyTimer-moodyTimerUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = moodyTimerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huseyingulecen.moodyTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = moodyTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D53F24724F68795002722E1 /* Build configuration list for PBXProject "moodyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D53F27224F68795002722E1 /* Debug */,
+				1D53F27324F68795002722E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D53F27424F68795002722E1 /* Build configuration list for PBXNativeTarget "moodyTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D53F27524F68795002722E1 /* Debug */,
+				1D53F27624F68795002722E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D53F27724F68795002722E1 /* Build configuration list for PBXNativeTarget "moodyTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D53F27824F68795002722E1 /* Debug */,
+				1D53F27924F68795002722E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D53F27A24F68795002722E1 /* Build configuration list for PBXNativeTarget "moodyTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D53F27B24F68795002722E1 /* Debug */,
+				1D53F27C24F68795002722E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D53F24424F68795002722E1 /* Project object */;
+}

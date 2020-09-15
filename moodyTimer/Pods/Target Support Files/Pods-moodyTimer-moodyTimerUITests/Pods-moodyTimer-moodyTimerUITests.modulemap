@@ -1,0 +1,6 @@
+framework module Pods_moodyTimer_moodyTimerUITests {
+  umbrella header "Pods-moodyTimer-moodyTimerUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
